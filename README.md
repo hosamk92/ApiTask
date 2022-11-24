@@ -14,6 +14,16 @@ Examples:
 - 4, 17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12   
 - 40, 66 -> 40,41,42,43,44,46,47,48,49,60,61,62,63,64,66 -> Result 15   
 
+App Endpoint   
+```http
+GET /firstTask?start_number=1&end_number=9
+```
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `start_number` | `long` | **Required**. the start number |   
+| `end_number` | `long` | **Required**. the end number |    
+
 
 ## Second Task 
 GET api that have one parameter named input_string. that have the alphabetic string you should return the index of this string.   
@@ -28,6 +38,16 @@ Examples:
 - "ABB" -> Result 730    
 
 
+App Endpoint   
+```http
+GET /secondTask?input_string=AAA
+```
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `input_string` | `long` | **Required**. the al number |   
+
+
 ## Third Task 
 You are given an array Q of N elements. Each element In array Q represent an integer number X. 
 The goal is for each element X in the array we need to minimize the number of steps required in order to reduce this number to zero
@@ -38,7 +58,10 @@ You can perform each step in any of the 2 operations on X in each move:
 
 Determine the minimum number of moves required to reduce the value of X to 0.
 
+[thirdTask function](https://github.com/hosamk92/ApiTask/blob/main/src/main/java/com/api/task/apitask/lib/thirdTask.java#L11)
 
 
 ## Testing
 - Run `mvn clean test`
+
+This runs all the testcases in the given tasks
