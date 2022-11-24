@@ -1,13 +1,14 @@
-package com.api.task.apitask.lib;
+package com.api.task.apitask.libTest;
 
+import com.api.task.apitask.lib.thirdTask;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
 @RunWith(SpringRunner.class)
-public class thirdTaskTest {
+class thirdTaskTest {
 
 
     @Test
