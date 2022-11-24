@@ -1,7 +1,8 @@
-package com.api.task.apitask.lib;
+package com.api.task.apitask.libTest;
 import com.api.task.apitask.controller.ApiControllers;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -13,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = ApiControllers.class)
-public class firstTaskTest {
+class firstTaskTests {
     @Autowired
     private MockMvc mvc;
 
