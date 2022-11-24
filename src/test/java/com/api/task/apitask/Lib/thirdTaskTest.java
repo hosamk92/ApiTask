@@ -1,5 +1,4 @@
 package com.api.task.apitask.Lib;
-import com.api.task.apitask.Lib.thirdTask;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -12,7 +11,7 @@ public class thirdTaskTest {
 
 
     @Test
-    public void thirdTask1() throws Exception {
+    public void thirdTask1() {
         thirdTask t3 = new thirdTask();
         int[] X = {3, 4};
         int[] output = t3.thirdTask(2, X);
@@ -21,7 +20,7 @@ public class thirdTaskTest {
     }
 
     @Test
-    public void thirdTask2() throws Exception {
+    public void thirdTask2() {
         thirdTask t3 = new thirdTask();
         int[] X = {3, 5, 5};
         int[] output = t3.thirdTask(3, X);
@@ -30,7 +29,7 @@ public class thirdTaskTest {
     }
 
     @Test
-    public void thirdTask3() throws Exception {
+    public void thirdTask3() {
         thirdTask t3 = new thirdTask();
         int[] X = {1, 2, 0, 6};
         int[] output = t3.thirdTask(4, X);
