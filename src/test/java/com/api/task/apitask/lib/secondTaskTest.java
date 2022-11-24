@@ -1,5 +1,5 @@
-package com.api.task.apitask.Lib;
-import com.api.task.apitask.Controller.ApiControllers;
+package com.api.task.apitask.lib;
+import com.api.task.apitask.controller.ApiControllers;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
